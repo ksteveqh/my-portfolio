@@ -1,0 +1,201 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 90vw;
+}
+
+.menu {
+    background-color: #00AF1C;
+    width: 1347px;
+    height: 99px;
+    word-spacing: 30px;
+}
+
+.logo {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    color: white;
+    top: 30px;
+    left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 21px;
+    font-family: arial;
+    position: relative;
+    top: 38px;
+    left: 900px;
+}
+
+.home {
+    color:#3B06D2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: bold;
+    position: relative;
+    left: 20px;
+}
+
+.servicios {
+    color:#D206B2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: bold;
+    position: relative;
+    left: 20px;
+}
+
+.portafolio {
+    color: #AAD206;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: bold;
+    position: relative;
+    left: 20px;
+}
+
+.contacto {
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: bold;
+    position: relative;
+    left: 20px;
+}
+
+p {
+    position: relative;
+    left: 20px;
+}
+
+img {
+    position: relative;
+    left: 40px;
+    padding: 10px;
+}
+
+li {
+    position: relative;
+    left: 50px;
+}
+
+.servicio1 {
+    color: red;
+    font-weight: bold;
+}
+
+.servicio2 {
+    color: blue;
+    font-weight: bold;
+}
+
+.servicio3 {
+    color: orange;
+    font-weight: bold;
+}
+
+.servicio4 {
+    color: aqua;
+    font-weight: bold;
+}
+
+.servicio11 {
+    color: rgb(228, 170, 64);
+    font-weight: bold;
+}
+
+.servicio22 {
+    color: rgb(184, 16, 16);
+    font-weight: bold;
+}
+
+.servicio33 {
+    color: rgb(57, 54, 241);
+    font-weight: bold;
+}
+
+.servicio44 {
+    color: rgb(100, 150, 78);
+    font-weight: bold;
+}
+
+table {
+    border: 1px solid black;
+}
+
+.rectangulo {
+    position: relative;
+    border: 1px solid black;
+    left: 20px;
+    width: 1300px;
+    height: 60px;
+}
+
+.rectangulo2 {
+    position: relative;
+    border: 1px solid black;
+    left: 20px;
+    width: 1300px;
+    height: 214px;
+    top: 10px;
+}
+
+.nombreyapellido {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+
+}
+
+.detalle {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+
+.rectangulo3 {
+    position: relative;
+    border: 1px solid #00AF1C;
+    left: 20px;
+    height: 40px;
+    width: 120px;
+    top: 30px;
+}
+
+.enviar a {
+    color: #00AF1C;
+    position: absolute;
+    left: 35px;
+    top: 10px;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.footer {
+    background-color:  #00AF1C;
+    position: relative;
+    top: 200px;
+    width: 1347px;
+    height: 99px;
+}
+
+.tdr {
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    font-size: 24px;
+    font-family: arial;
+}
+
+.creador {
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    font-size: 24px;
+    font-family: arial;
+}

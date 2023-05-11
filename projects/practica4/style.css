@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url(./img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 1050%;
+}
+
+.titulo {
+    position: absolute;
+    left: 550px;
+    top: 125px;
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+}
+
+.ejercicios{
+    background: rgb(1, 209 , 37);
+    padding: 20px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    left: 700px;
+    top: 230px;
+}
+
+.titulo {
+    animation-name: tituloAnimado;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes tituloAnimado{
+    from {
+        margin-left: 50%;
+        font-size: 0%;
+    }
+    to {
+        margin-right: -50%;
+        font-size: 100%;
+    }
+}

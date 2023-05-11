@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index-style.css">
+</head>
+<body>
+
+    <!-- container of header -->
+
+    <div class="container-header">
+        <header>
+            <div class="brand">
+                <a href="#">Q<span>&</span>H</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="select()">home</a></li>
+                    <li><a href="#about" onclick="select()">about</a></li>
+                    <li><a href="#cv" onclick="select()">resume</a></li>
+                    <li><a href="#portfolio" onclick="select()">portfolio</a></li>
+                    <li><a href="#contact" onclick="select()">contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showHideMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- container of home -->
+
+    <section id="home" class="home">
+        <div class="container-first">
+            <div class="container-img">
+                <img src="img/foto.png" alt="">
+            </div>
+            <h1>Kevin Steve</h1>
+            <br>
+            <h2>Front-End Development</h2>
+            <h2>Web Layout</h2>
+            <div class="networks">
+                <a href="" ><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/steve-quispe-huaypar/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://wa.me/987371470?text=Hola%20Steve,%20%20me%20gustaria%20contactar%20contigo" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- container of about  -->
+
+    <section id="about" class="about">
+        <div class="container-section">
+            <h2>about</h2>
+            <p><span>Hello, I am Kevin Quispe.</span>I am a professional with great interest in technology and web design looking for an opportunity to demonstrate my potential as a front-end developer. I have worked on several personal projects in which I have acquired skills in programming languages such as HTML, CSS and JavaScript. I consider myself a creative person, self-taught and always willing to learn new things.</p>
+            
+            <div class="row">
+                <!-- personal data -->
+                <div class="col">
+                    <h3>personal information</h3>
+                    <ul>
+                        <li>
+                            <strong>Mobile</strong>
+                            +51 987371470
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            ksteveqh@gmail.com
+                        </li>
+                        <li>
+                            <strong>Web</strong>
+                            www.q&h.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Cusco, Perú
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Freelance</span>
+                        </li>
+                    
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>interests</h3>
+                    <div class="container-interests">
+                        <div class="interests">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>games</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>music</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>travel</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>race</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-sharp fa-solid fa-person-hiking"></i>
+                            <span>sport</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-book"></i>
+                            <span>books</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-car"></i>
+                            <span>cars</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>photos</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <a href="./resource/Kevin_Steve_Quispe_Huaypar.pdf" target="_blank">
+                <button>
+                    Download CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- container cv -->
+
+    <section class="cv" id="cv">
+        <div class="container-section">
+            <h2>Resume</h2>
+            <div class="row">
+
+                <div class="col left">
+                    <h3>education</h3>
+                    <div class="item lef">
+                        <h4>Bootcamp Desarrollo Web Full Stack</h4>
+                        <span class="house">CodiGO-Tecsup</span>
+                        <span class="date">2022</span>
+                        <p>In the 1st module we will start learning the basics of the front-end with HTML5, CSS and Javascript until we master frameworks and libraries such as react.js. In the 2nd module we will learn the internal part of a development which is the back-end and we will have Python as the main language.</p>
+                        <div class="connectori">
+                            <div class="circlei">   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item lef">
+                        <h4>Geological Engineering</h4>
+                        <span class="house">University of Saint Antonio Abad from cusco</span>
+                        <span class="date">2013-2021</span>
+                        <p>Solid scientific, technological, humanistic, ethical and moral training that is committed to the socio-economic and cultural development of the country and the region.  Ability to generate and develop research in the field of geology and Geological Engineering to contribute with alternative solutions in the context of society's problems, contributing to the scientific and technological production of the region and the country.</p>
+                        <div class="connectori">
+                            <div class="circlei">   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col right">
+
+                    <h3>work experience</h3>
+
+                    <div class="item righ">
+                        <h4>Freelance</h4>
+                        <span class="house">Independent Professional</span>
+                        <span class="date">2021-2023</span>
+                        <p>I have done internships and challenges during my training period as a front-end developer, so I have been able to improve my layout skills and better understand the structure of web page construction.</p>
+                        <div class="connectord">
+                            <div class="circled">   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item righ">
+                        <h4>Trainee</h4>
+                        <span class="house">District Municipality of Inambari</span>
+                        <span class="date">2021</span>
+                        <p>I assisted in the collection of field data (tracks), location of GPS points, topographic survey, drone flight to take aerial photographs. Processed the data in AutoCAD and ArcGIS to finally generate a database and base maps in these programs.</p>
+                        <div class="connectord">
+                            <div class="circled">   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Container of skills -->
+
+    <section class="skills" id="skills">
+
+        <div class="container-section">
+            <h2>skills</h2>
+            <div class="row">
+
+                <!-- technical skills -->
+                <div class="col">
+                    <h3>technical skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="bar-skill">
+                            <div class="progress htmlcss">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="bar-skill">
+                            <div class="progress javascript">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="bar-skill">
+                            <div class="progress figma">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="bar-skill">
+                            <div class="progress sql">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="bar-skill">
+                            <div class="progress python">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional skills -->
+
+                <div class="col">
+                    <h3>professional skills</h3>
+                    <div class="skill">
+                        <span>Troubleshooting</span>
+                        <div class="bar-skill">
+                            <div class="progress trobsht">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    <div class="skill">
+                        <span>Emotional intelligence</span>
+                        <div class="bar-skill">
+                            <div class="progress emointe">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Analytical skills</span>
+                        <div class="bar-skill">
+                            <div class="progress anaskill">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Critical thinking</span>
+                        <div class="bar-skill">
+                            <div class="progress crithink">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Communication skills</span>
+                        <div class="bar-skill">
+                            <div class="progress comuskill">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--  container portfolio -->
+    
+    <section id="portfolio" class="portfolio">
+        <div class="container-section">
+            <h2>portfolio</h2>
+            <div class="gallery">
+                <div class="project">
+                    <img src="img/projects/practica1.png" alt="">
+                    <div class="overlay">
+                        <h3>Practice 01</h3>
+                        <p>HTML & CSS</p>
+                        <a href="projects/practica1/index.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/projects/practica2.png" alt="">
+                    <div class="overlay">
+                        <h3>Practice 02</h3>
+                        <p>HTML & CSS</p>
+                        <a href="projects/practica2/index.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/projects/practica3.png" alt="">
+                    <div class="overlay">
+                        <h3>Practice 03</h3>
+                        <p>HTML & CSS</p>
+                        <a href="projects/practica3/index.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/projects/practica4.png" alt="">
+                    <div class="overlay">
+                        <h3>Practice 04</h3>
+                        <p>HTML & CSS & JS</p>
+                        <a href="projects/practica4/index.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/projects/practica5.png" alt="">
+                    <div class="overlay">
+                        <h3>Practice 05</h3>
+                        <p>HTML & CSS & JS</p>
+                        <a href="projects/practica5/index.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/projects/reto1.png" alt="">
+                    <div class="overlay">
+                        <h3>Challenge 01</h3>
+                        <p>HTML & CSS</p>
+                        <a href="projects/practica6/index.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/projects/reto2.png" alt="">
+                    <div class="overlay">
+                        <h3>Challenge 02</h3>
+                        <p>HTML & CSS</p>
+                        <a href="projects/practica7/index.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/projects/reto3.png" alt="">
+                    <div class="overlay">
+                        <h3>Challenge 03</h3>
+                        <p>HTML & CSS</p>
+                        <a href="projects/practica8/index.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/projects/portfolio.png" alt="">
+                    <div class="overlay">
+                        <h3>Geoportfolio</h3>
+                        <p>HTML & CSS & JS</p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- container contact -->
+
+    <section id="contact" class="contact">
+        <div class="container-section">
+            <h2>contact</h2>
+            <div class="row">
+                <!-- form -->
+                <div class="col">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Mobile number">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Submit <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- map -->
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Location: Cusco
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Phone: +51 987371470
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: ksteveqh@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124130.90540933957!2d-71.93924905000002!3d-13.53001929999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd5d826598431%3A0x2aa996cc2318315d!2sCusco!5e0!3m2!1ses-419!2spe!4v1683645054458!5m2!1ses-419!2spe" width="100%" height="350" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- container footer -->
+
+    <footer>
+        <a href="#home"  class="up">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="networks">
+            <a href="" ><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/steve-quispe-huaypar/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://wa.me/987371470?text=Hola%20Steve,%20%20me%20gustaria%20contactar%20contigo" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+<script src="js/script.js"></script>
+
+</html>

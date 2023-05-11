@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* PAGINA 1 */
+
+.pagina1 {
+    background-color: hsl(193, 100%, 96%);
+    background-image:url(./img/bg-hero-desktop.svg);
+    height: 660px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logotipo {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.try {
+    
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0.5px rgb(187, 187, 187);
+    border-radius: 20px;
+    margin-top: 35px;
+    margin-right: 100px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.try a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+}
+
+.try a:hover {
+    color: hsl(0, 0%, 57%);
+}
+
+.seccion1 {
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.derecha {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+
+.derecha h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.derecha h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.derecha p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.get {
+    background-color:  hsl(322, 100%, 66%);
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get:hover {
+    opacity: 50%;
+}
+
+.get a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.izquierda {
+    margin-right: 100px;
+}
+
+
+/* PAGINA 2 */
+
+.pagina2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 1000px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 0.5px rgb(187, 187, 187);
+    padding: 50px;
+}
+
+
+.contenedor3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 1000px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 0.5px rgb(187, 187, 187);
+    padding: 50px;
+}
+
+.contenedor4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 1000px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 0.5px rgb(187, 187, 187);
+    padding: 50px;
+}
+
+.textoderecha {
+    padding: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.textoderecha p {
+    opacity: 80%;
+}
+
+.textoizquierda {
+    padding: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.textoizquierda p {
+    opacity: 80%;
+}
+
+.desenfoque {
+    background-color: #fff;
+    color: hsl(192, 100%, 9%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 150px;
+    width: 600px;
+    box-shadow: 0px 0px 5px 0.5px rgb(187, 187, 187);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+    background-color:  hsl(322, 100%, 66%);
+    color: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.button:hover {
+    opacity: 50%;
+}
+
+/* PIE DE PAGINA */
+
+.pie {
+    display: flex;
+    background-color: hsl(192, 100%, 9%);
+    flex-direction: column;
+    margin-top: -100px;
+    height: 500px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logofoot img {
+    margin-top: 200px;
+    margin-left: 80px;
+    filter: brightness(0) invert(1);
+}
+
+.footer {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+
+.columna1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    color: #fff;
+}
+
+.columna1 p {
+    margin-left: 15px;
+}
+
+.direccion {
+    display: flex;
+}
+
+.direccion p {
+    margin-left: 25px;
+    text-align: justify;
+}
+
+.telefono {
+    display: flex;
+}
+
+.correo {
+    display: flex;
+}
+
+.columna2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.columna2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.columna3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.columna3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.columna4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    color: #fff;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -10px;
+}
+
+.icon i {
+    padding: 10px;
+    color: #fff;
+}
+
+.face {
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #fff;
+    width: 35px;
+}
+
+.face:hover {
+    border: 1px solid hsl(322, 100%, 66%);
+}
+
+.face:hover .fa-facebook-f {
+    color: hsl(322, 100%, 66%);
+}
+
+.twitter {
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #fff;
+}
+
+.twitter:hover {
+    border: 1px solid hsl(322, 100%, 66%);
+}
+
+.twitter:hover .fa-twitter {
+    color: hsl(322, 100%, 66%);
+    
+}
+
+.insta {
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.insta:hover {
+    border: 1px solid hsl(322, 100%, 66%);
+}
+
+.insta:hover .fa-instagram {
+    color: hsl(322, 100%, 66%);
+    
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 10px;
+}
+
